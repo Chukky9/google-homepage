@@ -1,0 +1,123 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: auto;
+}
+
+#header-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+#header-links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+    margin-right: 20px;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.image {
+    margin-bottom: 50px;
+}
+
+.input-text {
+    height: 35px;
+    width: 500px;
+    border-radius: 40px;
+    border: 1px solid rgb(196, 196, 190);
+    cursor: text;
+}
+
+.input-text:hover {
+    transform: scale(1.05);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+}
+
+.btn {
+    padding: 10px 10px;
+    border: none;
+    color: rgb(82, 82, 82);
+    background-color: rgb(236, 236, 230);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
+
+.lang-options {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-options a {
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.lang-options a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(236, 236, 230);
+    width: 100%;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.advertising {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px;
+    width: 60vw;
+}
+
+.privacy {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    width: 40vw;
+}
+
+footer  a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    padding: 10px 10px;
+};
+}
